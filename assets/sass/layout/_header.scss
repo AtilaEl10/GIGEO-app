@@ -1,0 +1,12 @@
+.header {
+    height: 200px;
+    background-image: url(../img/image-banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 574px){
+    .header {
+        height: 100px;
+    }
+}

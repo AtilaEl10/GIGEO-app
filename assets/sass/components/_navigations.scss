@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    &__logo-img {
+        width: 120px;
+    }
+    &__list {
+        ul {
+            display: flex;
+            list-style: none;
+            li {
+                font-size: 18px;
+                margin-right: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 574px){
+    .nav {
+        padding-left:  30px; ;
+        &__list {
+            &-hide{
+                display: none;
+            }
+            ul {
+                li {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px){
+    .nav {
+        padding: 15px 40px 0;
+    }
+}

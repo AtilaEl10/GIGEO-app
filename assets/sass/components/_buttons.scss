@@ -1,0 +1,34 @@
+.perfil {
+    &__botones {
+        &-azul{
+            font-family: $monserrat;
+            font-weight: $f-regular;
+            font-size: $small;
+            color: white;
+            background-color: $celeste;
+            border: 0;
+            padding: 5px 10px;
+            margin-right: 10px;
+        }
+        &-rojo{
+            font-family: $monserrat;
+            font-weight: $f-regular;
+            font-size: $small;
+            color: white;
+            background-color: $rojo;
+            border: 0;
+            padding: 5px 10px;
+        }
+    }
+}
+button:hover {
+    background-color: gray;
+} 
+
+@media (max-width: 574px){
+    .perfil {
+        &__botones{
+            display: none;
+        }
+    }
+}
